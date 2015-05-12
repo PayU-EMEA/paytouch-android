@@ -1,3 +1,4 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Mar 31 16:15:29 CEST 2015
-payment-library-parent-1.1.2.pom>=
+#Tue May 12 11:41:49 CEST 2015
+payment-library-full-1.2.0.jar>=
+payment-library-full-1.2.0.pom>=
