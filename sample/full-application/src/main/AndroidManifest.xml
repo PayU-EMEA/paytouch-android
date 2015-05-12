@@ -1,0 +1,51 @@
+<manifest
+    package="com.payu.android.merchant"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.payu.android.merchant.MerchantApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/login_activity_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.products.ProductListActivity"
+            android:label="@string/ogrodopol_shop" />
+        <activity
+            android:name=".ui.checkout.ProductCheckoutActivity"
+            android:label="@string/ogrodopol_shop" />
+        <activity
+            android:name=".ui.confirmation.PaymentConfirmationActivity"
+            android:label="@string/ogrodopol_shop" />
+
+        <!-- PayU SDK configuration -->
+        <activity android:name="com.payu.android.sdk.payment.ui.NewCardActivity" />
+        <activity android:name="com.payu.android.sdk.payment.ui.PaymentMethodListActivity" />
+        <activity
+            android:name="com.payu.android.sdk.payment.ui.LocalCardCheckActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="com.payu.android.sdk.payment.ui.LoginActivity" />
+        <activity
+            android:name="com.payu.android.sdk.payment.ui.PaymentActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.payu.android.sdk.payment.ui.AuthorizationActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity android:name="com.payu.android.sdk.payment.ui.StrongAuthorizationActivity" />
+
+        <service
+            android:name="com.payu.android.sdk.payment.service.PaymentEntrypointService"
+            android:exported="false" />
+    </application>
+</manifest>

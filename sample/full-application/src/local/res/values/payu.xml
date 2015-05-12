@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- Replace placeholder with either local, production -->
+    <string name="payu_environment">local</string>
+    <!-- Supported values are: auto, polish, english -->
+    <string name="payu_language">auto</string>
+
+</resources>

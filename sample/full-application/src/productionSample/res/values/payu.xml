@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- Replace placeholder with either local, production -->
+    <string name="payu_environment">production</string>
+    <!-- Supported values are: auto, polish, english -->
+    <string name="payu_language">auto</string>
+    <string name="payu_token_service_class_full_qualified_name">com.payu.android.merchant.service.MerchantTokenProviderService</string>
+
+</resources>

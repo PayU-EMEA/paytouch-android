@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Merchant - Full</string>
+    <string name="payment_method">Sposób zapłaty</string>
+    <string name="login_activity_title">Ogrodopol - logowanie</string>
+    <string name="email">E-mail</string>
+    <string name="log_in">Zaloguj</string>
+    <string name="password">Hasło</string>
+    <string name="login_credentials_invalid">Podane dane logownia są nieprawidłowe.</string>
+    <string name="ogrodopol_shop">Sklep Ogrodopol</string>
+    <string name="buy_now">Kup teraz</string>
+    <string name="summary">Podsumowanie</string>
+    <string name="quantity">Sztuk: 1</string>
+    <string name="delivery_service">Usługa kurierska</string>
+    <string name="delivery_24h">Dostawa 24h</string>
+    <string name="in_total">Razem do zapłaty</string>
+    <string name="i_pay">Płacę</string>
+    <string name="continue_shopping">Kontynuuj zakupy</string>
+    <string name="transaction_submited">Twoja transakcja została\nprzekazana do realizacji</string>
+    <string name="thank_you">Dziękujemy</string>
+    <string name="for_shopping_in_ogrodopol">za zakupy w Ogrodopol</string>
+    <string name="ups_text">Ups...</string>
+    <string name="something_went_wrong">coś poszło nie tak</string>
+    <string name="an_error_ocurred_during_payment">Wystąpił błąd podczas realizacji płatności. Proszę spróbować ponownie.</string>
+    <string name="back_to_checkout">Wróć do koszyka</string>
+</resources>

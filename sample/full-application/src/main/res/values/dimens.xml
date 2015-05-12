@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="product_checkout_cell_height">72dp</dimen>
+</resources>

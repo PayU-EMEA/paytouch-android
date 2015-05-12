@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.payu.android.merchant"
+        versionCode 1
+        versionName "1.0"
+        targetSdkVersion 22
+        minSdkVersion 15
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    productFlavors {
+        local
+        productionSample
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    apt libraries.lombok
+    apt libraries.dagger_compiler
+    provided libraries.lombok
+    compile libraries.guava
+    compile libraries.timber
+    compile libraries.butterknife
+    compile libraries.picasso
+    compile libraries.android_support
+    compile libraries.recycler
+    compile libraries.cardview
+    compile libraries.dagger
+    compile libraries.jetbrains
+    compile libraries.edittext
+    compile(libraries.paytouch_full) {
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+    compile(libraries.paytouch_widget) {
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+}
+
