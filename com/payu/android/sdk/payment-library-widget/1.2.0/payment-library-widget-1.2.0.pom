@@ -18,12 +18,6 @@
     <dependencies>
         <dependency>
             <groupId>com.payu.android.sdk</groupId>
-            <artifactId>payment-library</artifactId>
-            <version>${project.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.payu.android.sdk</groupId>
             <artifactId>payment-library-full</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>
@@ -54,61 +48,5 @@
             <artifactId>dagger-compiler</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.payu.android.sdk</groupId>
-            <artifactId>payment-library-test-util</artifactId>
-            <version>${project.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.robolectric</groupId>
-            <artifactId>robolectric</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.easytesting</groupId>
-            <artifactId>fest-assert-core</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup</groupId>
-            <artifactId>fest-android</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.catch-exception</groupId>
-            <artifactId>catch-exception</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.simpligility.maven.plugins</groupId>
-                <artifactId>android-maven-plugin</artifactId>
-                <configuration>
-                    <androidManifestFile>${project.basedir}/AndroidManifest.xml</androidManifestFile>
-                    <resourceDirectory>${project.basedir}/res</resourceDirectory>
-                    <sdk>
-                        <platform>21</platform>
-                    </sdk>
-                    <proguard>
-                        <skip>true</skip>
-                    </proguard>
-                </configuration>
-                <extensions>true</extensions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
