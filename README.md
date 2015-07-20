@@ -58,9 +58,9 @@ compile('com.payu.android.sdk:payment-library-widget:1.3.0') {
 ```
 
 ## Quick tour over features
-![Selected payment method widget](/gfx/widget.png?raw=true "Selected payment method widget")
-![Empty payment method list](/gfx/payment_methods_empty.png?raw=true "Empty payment method list")
-![Payment method list with instruments](/gfx/payment_methods.png?raw=true "Payment method list with instruments")
-![Pay-By-Link payment methods](/gfx/pay_by_links.png?raw=true "Pay-By-Link payment methods")
-![Login screen](/gfx/login_screen.png?raw=true "Login screen")
-![Adding credit card](/gfx/add_card.png?raw=true "Adding credit card")
+<img src="/PayU/paytouch-android/blob/master/gfx/widget.png?raw=true" alt="Selected payment method widget" style="width:800px">
+<img src="/PayU/paytouch-android/blob/master/gfx/payment_methods_empty.png?raw=true" alt="Empty payment method list" style="width:500px">
+<img src="/PayU/paytouch-android/blob/master/gfx/payment_methods.png?raw=true" alt="Payment method list with instruments" style="width:500px">
+<img src="/PayU/paytouch-android/blob/master/gfx/pay_by_links.png?raw=true" alt="Pay-By-Link payment methods" style="width:500px">
+<img src="/PayU/paytouch-android/blob/master/gfx/login_screen.png?raw=true" alt="Login screen" style="width:500px">
+<img src="/PayU/paytouch-android/blob/master/gfx/add_card.png?raw=true" alt="Adding credit card" style="width:500px">
