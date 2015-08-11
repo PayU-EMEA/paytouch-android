@@ -117,5 +117,6 @@
                 <scope>provided</scope>
                 <version>5.0.1_r2</version>
             </dependency>
+        </dependencies>    
     </dependencyManagement>
 </project>
