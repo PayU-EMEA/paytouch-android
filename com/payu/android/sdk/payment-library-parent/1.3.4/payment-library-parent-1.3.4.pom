@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.payu.android.sdk</groupId>
+    <artifactId>payment-library-parent</artifactId>
+    <version>1.3.4</version>
+    <packaging>pom</packaging>
+    <name>PayTouch</name>
+    <description>PayU payments integration library for Android</description>
+
+    <developers>
+        <developer>
+            <name>Paweł Urban</name>
+            <email>pawel.urban@payu.pl</email>
+            <organization>PayU S.A.</organization>
+            <organizationUrl>https://payu.com</organizationUrl>
+        </developer>
+        <developer>
+            <name>Rafał Gurzkowski</name>
+            <email>rafal.gurzkowski@payu.pl</email>
+            <organization>PayU S.A.</organization>
+            <organizationUrl>https://payu.com</organizationUrl>
+        </developer>
+        <developer>
+            <name>Dariusz Baciński</name>
+            <email>dariusz.bacinski@payu.pl</email>
+            <organization>PayU S.A.</organization>
+            <organizationUrl>https://payu.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <organization>
+        <name>PayU S.A.</name>
+        <url>https://payu.com</url>
+    </organization>
+
+    <contributors>
+        <contributor>
+            <name>Grzegorz Hadała</name>
+            <email>grzegorz.hadala@payu.pl</email>
+            <organization>PayU S.A.</organization>
+            <organizationUrl>https://payu.com</organizationUrl>
+        </contributor>
+    </contributors>
+
+    <prerequisites>
+        <maven>3.0</maven>
+    </prerequisites>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.google.dagger</groupId>
+                <artifactId>dagger</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.dagger</groupId>
+                <artifactId>dagger-compiler</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.retrofit</groupId>
+                <artifactId>retrofit</artifactId>
+                <version>1.9.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.retrofit</groupId>
+                <artifactId>retrofit-mock</artifactId>
+                <version>1.9.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>2.5.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp</groupId>
+                <artifactId>okhttp-urlconnection</artifactId>
+                <version>2.5.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jetbrains</groupId>
+                <artifactId>annotations</artifactId>
+                <version>15.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.picasso</groupId>
+                <artifactId>picasso</artifactId>
+                <version>2.5.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>18.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.android.support</groupId>
+                <artifactId>support-v4</artifactId>
+                <version>21.0.3</version>
+            </dependency>
+            <dependency>
+                <groupId>android</groupId>
+                <artifactId>android</artifactId>
+                <scope>provided</scope>
+                <version>6.0_r1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.googlecode.catch-exception</groupId>
+                <artifactId>catch-exception</artifactId>
+                <version>1.2.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup</groupId>
+                <artifactId>fest-android</artifactId>
+                <version>1.0.8</version>
+            </dependency>
+            <dependency>
+                <groupId>joda-time</groupId>
+                <artifactId>joda-time</artifactId>
+                <version>2.9.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
