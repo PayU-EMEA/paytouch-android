@@ -56,9 +56,11 @@ dependencies {
     compile libraries.edittext
     compile(libraries.paytouch_full) {
         exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'org.jetbrains', module: 'annotations'
     }
     compile(libraries.paytouch_widget) {
         exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'org.jetbrains', module: 'annotations'
     }
 }
 
