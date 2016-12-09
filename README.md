@@ -59,6 +59,10 @@ compile('com.payu.android.sdk:payment-library-widget:1.3.8') {
 }
 ```
 
+##Additional Information
+In SDK when using local environment if you set payment to be less than 10 PLN there will be thrown GENERIC_ERROR.
+This will lest you test 'error' path.
+
 ## Quick tour over features
 <img src="/gfx/widget.png?raw=true" alt="Selected payment method widget" style="width:800px">
 <img src="/gfx/payment_methods_empty.png?raw=true" alt="Empty payment method list" style="width:500px">
