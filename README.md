@@ -37,23 +37,23 @@ repositories {
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-widget</artifactId> 
-    <version>1.3.9</version> 
+    <version>1.3.10</version> 
   </dependency> 
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-full</artifactId> 
-    <version>1.3.9</version> 
+    <version>1.3.10</version> 
   </dependency> 
 </dependencies>
 ``` 
 
 ```javascript
-compile('com.payu.android.sdk:payment-library-full:1.3.9') {
+compile('com.payu.android.sdk:payment-library-full:1.3.10') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 
-compile('com.payu.android.sdk:payment-library-widget:1.3.9') {
+compile('com.payu.android.sdk:payment-library-widget:1.3.10') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
