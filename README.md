@@ -60,7 +60,7 @@ compile('com.payu.android.sdk:payment-library-widget:1.3.10') {
 ```
 
 ##Additional Information
-In SDK when using local environment if you set payment to be less than 10 PLN there will be thrown GENERIC_ERROR.
+In SDK when using local environment if you set payment to be less than 100 PLN there will be thrown GENERIC_ERROR.
 This will lets you test 'error' path.
 
 ## Quick tour over features
