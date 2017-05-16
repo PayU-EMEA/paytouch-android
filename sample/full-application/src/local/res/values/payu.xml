@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
 
-    <!-- Replace placeholder with either local, production -->
+    <!-- Replace placeholder with local, production, sandbox -->
     <string name="payu_environment">local</string>
-    <!-- Supported values are: auto, polish, english -->
+    <!-- Supported values are: auto, polish, english, czech, german  -->
     <string name="payu_language">auto</string>
 
+    <!-- To use production/sandbox provide package name and class that extends after -->
+    <!-- Before uncommenting this part implement class:  MerchantTokenProviderService-->
+
+    <!--<string name="payu_token_service_class_full_qualified_name">com.payu.android.merchant.domain.service.MerchantTokenProviderService</string>-->
 </resources>
