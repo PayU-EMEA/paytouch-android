@@ -30,10 +30,11 @@
             <scope>provided</scope>
             <version>6.0_r1</version>
         </dependency>
-        <dependency>
+       <dependency>
             <groupId>com.payu.android.sdk</groupId>
-            <artifactId>payment-library-core</artifactId>
+            <artifactId>payment-library-full</artifactId>
             <version>${project.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
