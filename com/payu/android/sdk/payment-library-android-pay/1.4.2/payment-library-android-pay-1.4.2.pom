@@ -34,7 +34,6 @@
             <groupId>com.payu.android.sdk</groupId>
             <artifactId>payment-library-full</artifactId>
             <version>${project.version}</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jetbrains</groupId>
