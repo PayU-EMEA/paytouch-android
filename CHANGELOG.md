@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.4.3
+Fix memory leaks
+Add Android Pay libraries (check docs)
+9.06.2017
+
 ## 1.4.2
 Add new enviornment: Sandbox
 16.05.2017

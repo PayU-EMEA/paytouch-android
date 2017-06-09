@@ -37,27 +37,31 @@ repositories {
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-widget</artifactId> 
-    <version>1.4.2</version> 
+    <version>1.4.3</version> 
   </dependency> 
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-full</artifactId> 
-    <version>1.4.2</version> 
+    <version>1.4.3</version> 
   </dependency> 
 </dependencies>
 ``` 
 
 ```javascript
-compile('com.payu.android.sdk:payment-library-full:1.4.2') {
+compile('com.payu.android.sdk:payment-library-full:1.4.3') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 
-compile('com.payu.android.sdk:payment-library-widget:1.4.2') {
+compile('com.payu.android.sdk:payment-library-widget:1.4.3') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 ```
+
+
+##Android Pay
+For integration with Android Pay check docs\Android-Pay manual
 
 ##Additional Information
 In SDK when using local environment if you set payment to be less than 100 PLN there will be thrown GENERIC_ERROR.
