@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.5.0
+Fix Concurrent modification exception
+Update phone number helpline in PayU
+Add dialog with information about payment process support via PayU 
+
 ## 1.4.3
 Fix memory leaks
 Add Android Pay libraries (check docs)
