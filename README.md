@@ -71,7 +71,7 @@ This will lets you test 'error' path.
 Releases changelog can be found [here](CHANGELOG.md).
 
 ## Quick tour over features
-<img src="/gfx/widget.png?raw=true" alt="Selected payment method widget" style="width:800px">
+<img src="/gfx/widget_new_1.5.0.png?raw=true" alt="Selected payment method widget" style="width:800px">
 <img src="/gfx/payment_methods_empty.png?raw=true" alt="Empty payment method list" style="width:500px">
 <img src="/gfx/payment_methods.png?raw=true" alt="Payment method list with instruments" style="width:500px">
 <img src="/gfx/pay_by_links.png?raw=true" alt="Pay-By-Link payment methods" style="width:500px">
