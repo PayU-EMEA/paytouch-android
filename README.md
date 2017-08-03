@@ -67,6 +67,9 @@ For integration with Android Pay check docs\Android-Pay manual
 In SDK when using local environment if you set payment to be less than 100 PLN there will be thrown GENERIC_ERROR.
 This will lets you test 'error' path.
 
+##Backend
+Configuration for backend: http://developers.payu.com/en/mobile_sdk.html#mobile_sdk_description 
+
 ##Changelog
 Releases changelog can be found [here](CHANGELOG.md).
 
