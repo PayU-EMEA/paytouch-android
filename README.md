@@ -71,17 +71,17 @@ compile('com.payu.android.sdk:payment-library-widget:1.5.0') {
 ```
 
 
-##Android Pay
+## Android Pay
 For integration with Android Pay check docs\Android-Pay manual
 
-##Additional Information
+## Additional Information
 In SDK when using local environment if you set payment to be less than 100 PLN there will be thrown GENERIC_ERROR.
 This will lets you test 'error' path.
 
-##Backend
+## Backend
 Configuration for backend: http://developers.payu.com/en/mobile_sdk.html#mobile_sdk_description 
 
-##Changelog
+## Changelog
 Releases changelog can be found [here](CHANGELOG.md).
 
 ## Quick tour over features
