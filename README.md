@@ -16,6 +16,7 @@ SDK for Android Developers easing PayU payments platform integration. The SDK pr
 * [Features](#quick-tour-over-features)
 * [Backend](#backend)
 * [Android Pay](#android-pay)
+* [Documentation](https://github.com/PayU/paytouch-android/tree/master/docs)
 
 ## Requirements
 
