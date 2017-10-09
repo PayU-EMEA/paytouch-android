@@ -114,6 +114,7 @@ All connection/interaction with servers in case of _Local_ environment are mocke
 As described on http://developers.payu.com/en/mobile_sdk.html#mobile_sdk_description obtaining token is a process that require MerchantBackend that ask PayU Backend for a token and later pass it to mobile app.
 PayTouch library will work only with ```mobile.sdk``` scope.
 In this case we suggest to check POS if it is configured for mobile payments and check backend - backend communication with requesting for authorization token.
+Other cases when there can be an issue with a POS: there is an error when adding a new card to account or  open "payu account" and all fields will be empty.
 
 * e-mail collision
 When creating a shop on environment the e-mail will be reserved and you cannot use it to purchase.
@@ -155,3 +156,7 @@ When migrating to Production evironment you need to contact PayU to sign an agre
 **11. How to integrate with PhoneGap?**
 
 In this scenario we  suggest to use RestAPI - http://developers.payu.com/en/restapi.html .
+
+**12. Should I use both PayU libraries (payment-library-full & payment-library-widget)?**
+
+We strongly recommend to use both libraries for better UX and for easier maintenance.
