@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>payment-library-parent</artifactId>
+    <groupId>com.payu.android.sdk</groupId>
+    <version>1.6.0</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.payu.android.sdk</groupId>
+  <artifactId>payment-library-core-full</artifactId>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <version>1.6.0</version>
+  
+  <dependencies>
+    <dependency>
+      <groupId>android</groupId>
+      <artifactId>android</artifactId>
+      <version>6.0_r1</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>18.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>15.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+
