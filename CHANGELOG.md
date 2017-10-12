@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.0
+Change web container to utilize new banks web pages
+
 ## 1.5.0
 Fix Concurrent modification exception
 Update phone number helpline in PayU
