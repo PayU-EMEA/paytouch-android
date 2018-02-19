@@ -160,3 +160,7 @@ In this scenario we  suggest to use RestAPI - http://developers.payu.com/en/rest
 **12. Should I use both PayU libraries (payment-library-full & payment-library-widget)?**
 
 We strongly recommend to use both libraries for better UX and for easier maintenance.
+
+**13. What is minimum ammount of cash  that can be used for purchase?**
+
+Minimum amount of cash that can be used for paying is 1 gr or alternative in other currencies.
