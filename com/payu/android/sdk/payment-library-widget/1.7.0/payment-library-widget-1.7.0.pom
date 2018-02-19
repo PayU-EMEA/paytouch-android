@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.payu.android.sdk</groupId>
+    <artifactId>payment-library-widget</artifactId>
+    <version>1.7.0</version>
+    <packaging>aar</packaging>
+    <name>${project.groupId}:${project.artifactId}</name>
+
+    <parent>
+        <groupId>com.payu.android.sdk</groupId>
+        <artifactId>payment-library-parent</artifactId>
+        <version>1.7.0</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.payu.android.sdk</groupId>
+            <artifactId>payment-library-full</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.picasso</groupId>
+            <artifactId>picasso</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.dagger</groupId>
+            <artifactId>dagger</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.dagger</groupId>
+            <artifactId>dagger-compiler</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+</project>
