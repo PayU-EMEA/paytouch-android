@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.7.0
+Update dagger2 to 2.14.1
+**Note:** If you are using dagger in you application, it needs to be at least version 2.14
+Guava to 24-Android
+Change minimum amount that can be used for paying to 1 gr or alternative in other currencies
+
 ## 1.6.0
 Change web container to utilize new banks web pages
 
