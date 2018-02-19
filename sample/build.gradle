@@ -3,6 +3,7 @@ buildscript {
     repositories {
         jcenter()
         mavenCentral()
+        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.0'
@@ -11,17 +12,17 @@ buildscript {
     }
 }
 ext.libraries = [
-        paytouch_full  : 'com.payu.android.sdk:payment-library-full:1.6.0',
-        paytouch_widget: 'com.payu.android.sdk:payment-library-widget:1.6.0',
+        paytouch_full  : 'com.payu.android.sdk:payment-library-full:1.7.0',
+        paytouch_widget: 'com.payu.android.sdk:payment-library-widget:1.7.0',
         butterknife    : 'com.jakewharton:butterknife:6.1.0',
         okhttp         : 'com.squareup.okhttp:okhttp:2.3.0',
         timber         : 'com.jakewharton.timber:timber:3.0.2',
         picasso        : 'com.squareup.picasso:picasso:2.5.2',
         android_support: ['com.android.support:appcompat-v7:22.0.0', 'com.android.support:support-v4:22.0.0'],
-        guava          : 'com.google.guava:guava:18.0',
+        guava          : 'com.google.guava:guava:24.0-android',
         lombok         : 'org.projectlombok:lombok:1.16.4',
-        dagger         : ['com.google.dagger:dagger:2.7', 'javax.annotation:jsr250-api:1.0', 'javax.inject:javax.inject:1'],
-        dagger_compiler: 'com.google.dagger:dagger-compiler:2.7',
+        dagger         : ['com.google.dagger:dagger:2.14.1', 'javax.annotation:jsr250-api:1.0', 'javax.inject:javax.inject:1'],
+        dagger_compiler: 'com.google.dagger:dagger-compiler:2.14.1',
         joda           : 'net.danlew:android.joda:2.7.1',
         jetbrains      : 'org.jetbrains:annotations:13.0',
         gson           : 'com.google.code.gson:gson:2.3.1',
