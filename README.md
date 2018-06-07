@@ -7,6 +7,10 @@ SDK for Android Developers easing PayU payments platform integration. The SDK pr
 **Beware that this SDK works only in Poland**
 
 
+## Information
+Older version of library (below 1.8.0) will stop working in August 2018,
+Bank web pages (Pay by links) are dropping support for Android < 4.4 
+
 # Table of Contents
 
 * [Requiremnets](#requirements)
@@ -20,7 +24,7 @@ SDK for Android Developers easing PayU payments platform integration. The SDK pr
 
 ## Requirements
 
-* Android 2.3 or later
+* Android 4.4 or later
 * Server-side OAuth2 token retrieval - see full documentation
 
 ## Repository
@@ -49,23 +53,23 @@ repositories {
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-widget</artifactId> 
-    <version>1.7.0</version> 
+    <version>1.8.0</version> 
   </dependency> 
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-full</artifactId> 
-    <version>1.7.0</version> 
+    <version>1.8.0</version> 
   </dependency> 
 </dependencies>
 ``` 
 
 ```javascript
-compile('com.payu.android.sdk:payment-library-full:1.7.0') {
+compile('com.payu.android.sdk:payment-library-full:1.8.0') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 
-compile('com.payu.android.sdk:payment-library-widget:1.7.0') {
+compile('com.payu.android.sdk:payment-library-widget:1.8.0') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }

@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.8.0
+Change Endpoint 
+Force TLS 1.2
+Update czech translations
+We suggest that you should set min SDK in app for KitKat SDK version
+
 ## 1.7.0
 Update dagger2 to 2.14.1
 **Note:** If you are using dagger in you application, it needs to be at least version 2.14
