@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.payu.android.sdk</groupId>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>payment-library-android-pay</artifactId>
+    <version>1.8.0</version>
+    <packaging>aar</packaging>
+    <name>${project.groupId}:${project.artifactId}</name>
+
+    <parent>
+        <groupId>com.payu.android.sdk</groupId>
+        <artifactId>payment-library-parent</artifactId>
+        <version>1.8.0</version>
+    </parent>
+
+    <!-- Google Wallet -->
+    <dependencies>
+        <dependency>
+            <groupId>com.google.android.gms</groupId>
+            <artifactId>play-services-wallet</artifactId>
+            <version>9.6.1</version>
+            <type>aar</type>
+            <scope>provided</scope> 
+        </dependency>
+        <dependency>
+            <groupId>android</groupId>
+            <artifactId>android</artifactId>
+            <scope>provided</scope>
+            <version>8.0.0_r2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>15.0</version>
+        </dependency>
+    	<dependency>
+            <groupId>com.payu.android.sdk</groupId>
+            <artifactId>payment-library-core-full</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+    </dependencies>
+</project>
