@@ -170,7 +170,9 @@ We strongly recommend to use both libraries for better UX and for easier mainten
 Minimum amount of cash that can be used for paying is 1 gr or alternative in other currencies.
 
 **14.  I had an issue with  com.android.builder.merge.DuplicateRelativeFileException: "More than one file was found with OS independent path 'javax/annotation/CheckReturnValue.java" what should I do ?**
+
 In PayTouch we use Guava for Android like Google in newer support libraries so there is a clash between dependencies from this particular issue as soluiton we suggest to add new exclude with findbugs library to paytouch modules:
+
   implementation('com.payu.android.sdk:payment-library-full:1.8.0') {
       exclude group: 'com.android.support', module: 'support-v4'
       exclude group: 'org.jetbrains', module: 'annotations'
@@ -183,10 +185,11 @@ In PayTouch we use Guava for Android like Google in newer support libraries so t
   }
   
 **15. Temporary solution while releasing version from 1.7.0** 
+
 When creating release app with proguard please add new dontwarn lines
 
--dontwarn afu.org.checkerframework.**
--dontwarn org.checkerframework.**
--dontwarn javax.lang.**
--dontwarn java.lang.ClassValue
+*dontwarn afu.org.checkerframework.**
+*dontwarn org.checkerframework.**
+*dontwarn javax.lang.**
+*dontwarn java.lang.ClassValue
     
