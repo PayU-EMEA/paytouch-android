@@ -173,6 +173,7 @@ Minimum amount of cash that can be used for paying is 1 gr or alternative in oth
 
 In PayTouch we use Guava for Android like Google in newer support libraries so there is a clash between dependencies from this particular issue as soluiton we suggest to add new exclude with findbugs library to paytouch modules:
 
+  ```
   implementation('com.payu.android.sdk:payment-library-full:1.8.0') {
       exclude group: 'com.android.support', module: 'support-v4'
       exclude group: 'org.jetbrains', module: 'annotations'
@@ -183,13 +184,16 @@ In PayTouch we use Guava for Android like Google in newer support libraries so t
       exclude group: 'org.jetbrains', module: 'annotations'
       exclude group: 'com.google.code.findbugs', module: 'jsr305'
   }
+  ```
   
 **15. Temporary solution while releasing version from 1.7.0** 
 
 When creating release app with proguard please add new dontwarn lines
 
-*dontwarn afu.org.checkerframework.**
-*dontwarn org.checkerframework.**
-*dontwarn javax.lang.**
-*dontwarn java.lang.ClassValue
+```
+-dontwarn afu.org.checkerframework.**
+-dontwarn org.checkerframework.**
+-dontwarn javax.lang.**
+-dontwarn java.lang.ClassValue
+```
     
