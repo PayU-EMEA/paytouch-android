@@ -12,8 +12,8 @@ buildscript {
     }
 }
 ext.libraries = [
-        paytouch_full  : 'com.payu.android.sdk:payment-library-full:1.8.0',
-        paytouch_widget: 'com.payu.android.sdk:payment-library-widget:1.8.0',
+        paytouch_full  : 'com.payu.android.sdk:payment-library-full:1.8.1',
+        paytouch_widget: 'com.payu.android.sdk:payment-library-widget:1.8.1',
         butterknife    : 'com.jakewharton:butterknife:6.1.0',
         okhttp         : 'com.squareup.okhttp:okhttp:2.3.0',
         timber         : 'com.jakewharton.timber:timber:3.0.2',

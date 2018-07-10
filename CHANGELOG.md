@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.8.1
+Fix "connection error" on Android 4.4
+
 ## 1.8.0
 Change Endpoint 
 Force TLS 1.2

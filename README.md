@@ -53,23 +53,23 @@ repositories {
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-widget</artifactId> 
-    <version>1.8.0</version> 
+    <version>1.8.1</version> 
   </dependency> 
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-full</artifactId> 
-    <version>1.8.0</version> 
+    <version>1.8.1</version> 
   </dependency> 
 </dependencies>
 ``` 
 
 ```javascript
-compile('com.payu.android.sdk:payment-library-full:1.8.0') {
+compile('com.payu.android.sdk:payment-library-full:1.8.1') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 
-compile('com.payu.android.sdk:payment-library-widget:1.8.0') {
+compile('com.payu.android.sdk:payment-library-widget:1.8.1') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
@@ -185,7 +185,9 @@ In PayTouch we use Guava for Android like Google in newer support libraries so t
       exclude group: 'com.google.code.findbugs', module: 'jsr305'
   }
   ```
-  
+
+@Depreciated This should be fixed from version 1.8.1  
+ 
 **15. Temporary solution while releasing version from 1.7.0** 
 
 When creating release app with proguard please add new dontwarn lines
@@ -196,4 +198,7 @@ When creating release app with proguard please add new dontwarn lines
 -dontwarn javax.lang.**
 -dontwarn java.lang.ClassValue
 ```
+
+@Depreciated This should be fixed from version 1.8.1  
+
     
