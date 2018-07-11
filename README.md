@@ -186,7 +186,7 @@ In PayTouch we use Guava for Android like Google in newer support libraries so t
   }
   ```
 
-@Depreciated This should be fixed from version 1.8.1  
+@Deprecated This should be fixed from version 1.8.1  
  
 **15. Temporary solution while releasing version from 1.7.0** 
 
@@ -199,6 +199,6 @@ When creating release app with proguard please add new dontwarn lines
 -dontwarn java.lang.ClassValue
 ```
 
-@Depreciated This should be fixed from version 1.8.1  
+@Deprecated This should be fixed from version 1.8.1  
 
     
