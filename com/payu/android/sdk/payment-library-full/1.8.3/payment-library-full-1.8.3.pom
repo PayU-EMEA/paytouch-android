@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>payment-library-parent</artifactId>
+    <groupId>com.payu.android.sdk</groupId>
+    <version>1.8.3</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.payu.android.sdk</groupId>
+  <artifactId>payment-library-full</artifactId>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <version>1.8.3</version>
+ 
+  <dependencies>
+    <dependency>
+      <groupId>com.google.dagger</groupId>
+      <artifactId>dagger-compiler</artifactId>
+      <version>2.14.1</version>
+      <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>dagger-producers</artifactId>
+          <groupId>com.google.dagger</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>dagger-spi</artifactId>
+          <groupId>com.google.dagger</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>google-java-format</artifactId>
+          <groupId>com.google.googlejavaformat</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>javapoet</artifactId>
+          <groupId>com.squareup</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jsr250-api</artifactId>
+          <groupId>javax.annotation</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>android</groupId>
+      <artifactId>android</artifactId>
+      <version>8.0.0_r2</version>
+      <scope>provided</scope>
+    </dependency>
+ </dependencies>
+</project>
