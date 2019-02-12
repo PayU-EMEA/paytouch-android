@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.8.3
+Update card provider algorithm
+
 ## 1.8.1
 Fix "connection error" on Android 4.4
 

@@ -11,6 +11,11 @@ SDK for Android Developers easing PayU payments platform integration. The SDK pr
 Older version of library (below 1.8.0) will stop working in August 2018,
 Bank web pages (Pay by links) are dropping support for Android < 4.4 
 
+
+## Maintenance
+PayTouch SDK is in maintenance mode. If you would like to integrate with PayU payments please check new Mobile SDK: http://developers.payu.com/en/mobile_sdk.html 
+
+
 # Table of Contents
 
 * [Requiremnets](#requirements)
@@ -53,23 +58,23 @@ repositories {
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-widget</artifactId> 
-    <version>1.8.1</version> 
+    <version>1.8.3</version> 
   </dependency> 
   <dependency> 
     <groupId>com.payu.android.sdk</groupId> 
     <artifactId>payment-library-full</artifactId> 
-    <version>1.8.1</version> 
+    <version>1.8.3</version> 
   </dependency> 
 </dependencies>
 ``` 
 
 ```javascript
-compile('com.payu.android.sdk:payment-library-full:1.8.1') {
+compile('com.payu.android.sdk:payment-library-full:1.8.3') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
 
-compile('com.payu.android.sdk:payment-library-widget:1.8.1') {
+compile('com.payu.android.sdk:payment-library-widget:1.8.3') {
     exclude group: 'com.android.support', module: 'support-v4'
 	exclude group: 'org.jetbrains', module: 'annotations'
 }
@@ -186,7 +191,7 @@ In PayTouch we use Guava for Android like Google in newer support libraries so t
   }
   ```
 
-@Deprecated This should be fixed from version 1.8.1  
+@Deprecated This should be fixed from version 1.8.3 
  
 **15. Temporary solution while releasing version from 1.7.0** 
 
@@ -199,6 +204,6 @@ When creating release app with proguard please add new dontwarn lines
 -dontwarn java.lang.ClassValue
 ```
 
-@Deprecated This should be fixed from version 1.8.1  
+@Deprecated This should be fixed from version 1.8.3 
 
     
